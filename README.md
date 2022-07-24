@@ -7,7 +7,7 @@ This is a plugin for [Minecraft Server (Spigot API)](https://spigotmc.org/) intr
 - MySQL database
 
 # Usage ✔️
-Download the latest stable release from [releases page](https://github.com/Inder00/OpenSourceSectors/releases), put plugin 
+Download the latest stable release from [releases page](https://github.com/heytek/htkyNameMCReward/releases), put plugin 
 in the folder \plugins and complete the config! 🎉
 
 # TODO 📓
