@@ -1,0 +1,31 @@
+#DISCORD: heytek#9993
+
+#ENG // PL
+
+#Plugin is in early stage of smooth development so if you can have any bug report please go to me on discord! // Plugin jest we wczesnej fazie rozwoju, wieć jeśli znajdziesz jakiś błąd zgłoś go do mnie na discordzie!
+#NOTE! For the plugin to work, you need to connect the database! // UWAGA! Aby plugin działał musisz podłaczyć bazę danych!
+
+#Configuration // Konfiguracja
+ip: slowpvp.pl #IP of the server to be checked // IP serwera który będzie sprawdzany
+permission-reward: "htkyNameMCReward.reward" #Permission for the player to claim the reward // Permisja dla gracza, aby mogł odebrać nagrodę
+permission-reload: "htkyNameMCReward.reload" #Permission for the player to reload configuration // Permisja dla gracza, aby mogł reloadować config
+no-permissions-reward-message: "&cYou don't have permission! (&4htkyNameMCReward.reward&c)" #Message when the player has no permissions to claim reward // Wiadomość gdy gracz nie ma permisji do odebrania nagrody
+no-permissions-reload-message: "&cYou don't have permission! (&4htkyNameMCReward.reload&c)" #Permission for the player to reload config // Permisja dla gracza, aby mogł reloadować config
+message-after-recived-reward: "&6Hurrah! &eReceived a reward for liking our NameMC profile!" #Message to the player when he collects reward // Wiadomość do gracza, gdy odbierze nagrodę
+reward-already-received-message: "&aYou have already recived reward!" #Message when the player has already claimed reward // Wiadomość, gdy gracz już odebrał nagrodę
+reload-message: "&aConfig successfully reloaded!" #Message after reloading configuration // Wiadomość do gracza po reloadzie configu
+
+#Commands executed by console when the player receives a reward // Komendy wykonywane przez konsolę, gdy gracz odbierze nagrodę
+#Variables // Zmienne: [ %player% ]
+command-after-recived-reward1: "say %player% received the award for liking our profile on NameMC, and you are waiting for? (●'◡'●)"
+command-after-recived-reward2: "say Hey %player% did you see that? - https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=1s"
+command-after-recived-reward3: ""
+
+#MySQL
+host: ""
+port: ""
+database: ""
+username: ""
+password: ""
+useSSL: false #Or 'true' if required // Lub 'true' jeśli jest wymagane
+

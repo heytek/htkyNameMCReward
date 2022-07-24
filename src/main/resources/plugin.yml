@@ -1,0 +1,11 @@
+name: htkyNameMCReward
+version: '${project.version}'
+main: me.heytek.NameMCReward
+api-version: 1.16
+authors: [ heytek ]
+description: Plugin for rewarding players who like your server's profile on NameMC!
+
+commands:
+  reward:
+    aliases:
+      - nagroda
